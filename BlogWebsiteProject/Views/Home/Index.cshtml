@@ -2,7 +2,74 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color: #000066;
+                border: 20px ridge;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            p{
+                margin-top: 25px;
+                font-size: 19px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="text-center">
+            <h1 class="display-3">Welcome To Tony's Portfolio</h1>
+        </div>
+
+        <div class="text-start">
+            <h2 style="margin-top:50px;" class="display-5">About Me</h2>
+            <p>I am Tony Nguyen. I graduated from San Diego State University (SDSU) in May 2021 with a Bachelor's of Science in Computer Engineering.
+            My hobbies are gaming, bouldering, and reading manga.
+            </p>
+
+            <p>The programming languages I'm the best are C# and C. I have some experience in Python from a Discord project that used the Discord.py API. 
+                I have used C# professionally for about 2 years, and I have used C a little bit professionally as well. 
+                Most of my embedded C experience comes from an online Udemy class I took that taught me things like SPI.
+                Below is a list of my professional experiences.
+            </p>
+
+            <h2 style="margin-top:25px;">Experiences:</h2>
+
+            <ol>
+                <li>Associate Software Engineer at Cubic Corporation from June 2021 - January 2023
+                    <ul>
+                        <li>
+                            Developed an ASP.NET Core MVC web application in C# to communicate with embedded devices over
+                            Transmission Control Protocol/Internet Protocol (TCP/IP) to test the devices using SNMP
+                        </li>
+                        <li>
+                            Accomplished the addition of proprietary transmission protocol to the web application using User Datagram
+                            Protocol (UDP) and setting up another testing application as a proxy
+                        </li>
+                        <li>
+                            Coordinated with a team of Firmware Engineer, RF Engineer, and Software Engineer to assess problems with an
+                            embedded device and resolve them using C and STM32CubeIDE
+                        </li>
+                        <li>I got promoted to Software Engineer in January 2023</li>
+                    </ul>
+                </li>
+
+                <li style="margin-top:18px"> Software Engineer at Cubic Corporation from January 2023 - May 2023
+                    <ul>
+                        <li>
+                            Implemented the localization of a GUI on a webpage that was used in conjunction with a radio device to
+                            Traditional Chinese through JavaScript, HTML, and JSON files
+                        </li>
+                        <li>
+                            Got laid off in May 2023 due to a reduction in workforce at the company
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </body>
+</html>
+
+
