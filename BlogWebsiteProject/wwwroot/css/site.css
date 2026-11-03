@@ -20,3 +20,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.hover-dropdown:hover > .dropdown-menu {
+    display: block !important;
+    margin-top: 0;
+}
