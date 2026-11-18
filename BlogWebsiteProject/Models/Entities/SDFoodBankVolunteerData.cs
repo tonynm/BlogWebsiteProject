@@ -2,10 +2,10 @@
 
 namespace BlogWebsiteProject.Models.Entities
 {
-    public class VolunteerData
+    public class SDFoodBankVolunteerData
     {
         [Required]
-        public int VolunteerId { get; set; }
+        public int Id { get; set; }
 
         public DateTime VolunteerDate { get; set; }
 
@@ -15,5 +15,7 @@ namespace BlogWebsiteProject.Models.Entities
         public string VolunteerName { get; set; }
 
         public string VolunteerTask { get; set; }
+
+        public string VolunteerComments { get; set; }
     }
 }

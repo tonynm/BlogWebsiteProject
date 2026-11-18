@@ -1,7 +1,15 @@
+using BlogWebsiteProject.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<VolunteerContext>(options =>
+{
+    options.UseSqlServer("Server=TONYPC;Database=BlogWebsiteProject;Trusted_Connection=True;TrustServerCertificate=True;");
+});
 
 var app = builder.Build();
 
