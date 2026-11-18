@@ -2,7 +2,7 @@
 
 namespace BlogWebsiteProject.Models.Entities
 {
-    public class VolunteerData
+    public class SDFoodBankVolunteerData
     {
         [Required]
         public int VolunteerId { get; set; }
